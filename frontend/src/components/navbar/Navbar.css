@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: #ff6060;
+    font-weight: bold;
+    gap: 2rem;
+}
+
+.navbar img {
+    height: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ff6060;    
+}
+
+.navbar a:hover {
+    text-decoration: underline;  
+}
+
+.navbar a.active {
+    text-decoration: underline;
+}
+
+.navbar > *:first-child {
+    margin-right: auto;    
+}
+
+@media screen and (width <= 768px) {
+    .navbar {
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+}

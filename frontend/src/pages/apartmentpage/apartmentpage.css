@@ -1,0 +1,14 @@
+.apartment-page {
+    color: #ff6060;
+}
+
+.apartment__description__area {
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (width <= 768px) {
+    .apartment__description__area {
+        flex-direction: column;
+    }
+}

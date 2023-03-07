@@ -1,0 +1,29 @@
+.banner {
+    position: relative;
+    /* width: 1240px; */
+    /* width: auto; */
+    height: 223px;
+    /* left: 100px; */
+    /* top: 103px; 171 - 68 px */
+    /* margin-top: 103px; */
+    margin-bottom: 16px;
+    border-radius: 25px;
+    display: grid;
+    place-items: center;
+    background-image: url("../../Assets/pont.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.banner::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);    
+    border-radius: 25px;
+}
+
+.banner-title {
+    color: white;
+    z-index: 1;
+}

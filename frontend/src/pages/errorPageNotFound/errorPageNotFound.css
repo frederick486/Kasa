@@ -1,0 +1,34 @@
+.error__page {
+    color: #FF6060;
+    text-align: center;
+    position: absolute;
+    top: 227px;
+}
+
+.error__page__picture404_wrapper {
+    max-width: 597px;
+    max-height: 263px;
+    margin: auto;
+    margin-bottom: 66px;   
+
+    /* object-fit: contain;  */
+}
+
+.error__page__picture404_wrapper img {
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.error__page h2 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.error__page a {
+    color: #FF6060;
+    text-decoration: none;    
+}
+
+.error__page a:hover {
+    text-decoration: underline;
+}
