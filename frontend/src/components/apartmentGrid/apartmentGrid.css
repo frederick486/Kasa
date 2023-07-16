@@ -1,6 +1,5 @@
 .grid {
     background-color: rgba(0, 0, 0, 0.119);
-    /* min-height: 50vh; */
     border-radius: 2rem;
     display: flex;
     flex-wrap: wrap;
@@ -11,7 +10,6 @@
 
 @media screen and (width <= 768px) {
     .grid {
-        /* justify-content: center; */
         background-color: white;
         padding: 0;
         display: flex;

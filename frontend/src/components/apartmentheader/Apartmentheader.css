@@ -16,7 +16,6 @@
     margin-bottom: 0;
     display: flex;
     flex-direction: column;
-    /* align-items: end; */
     align-items: flex-end;
     justify-content: center;
     font-weight: 400;
@@ -75,10 +74,6 @@
 .apartment__owner__stars .on {
     color: #ff6060;
 }
-
-/* .apartment__owner__stars .off {
-    color: rgba(0, 0, 0, 0.119);
-} */
 
 @media screen and (width <= 768px) {
     .apartment__header {

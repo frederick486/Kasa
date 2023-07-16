@@ -10,13 +10,10 @@
     max-height: 263px;
     margin: auto;
     margin-bottom: 66px;   
-
-    /* object-fit: contain;  */
 }
 
 .error__page__picture404_wrapper img {
     width: 100%;
-    /* object-fit: cover; */
 }
 
 .error__page h2 {

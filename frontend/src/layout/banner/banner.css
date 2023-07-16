@@ -1,11 +1,6 @@
 .banner {
     position: relative;
-    /* width: 1240px; */
-    /* width: auto; */
     height: 223px;
-    /* left: 100px; */
-    /* top: 103px; 171 - 68 px */
-    /* margin-top: 103px; */
     margin-bottom: 16px;
     border-radius: 25px;
     display: grid;

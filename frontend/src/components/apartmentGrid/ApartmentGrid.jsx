@@ -6,35 +6,6 @@ import {useApartments } from '../../hooks/useApartments.jsx'
 
 function ApartmentGrid() {
 
-  // // chargement composant Version 1
-  // const [apartments, setApartments] = useState([]);
-
-  // useEffect(fetchApartments, [])
-
-  // function fetchApartments() {
-  //   fetch("db.json")
-  //   .then((res) => res.json())
-  //   .then((res) => setApartments(res))
-  //   .catch(console.error);
-  // }
-
-  // // chargement du composant Version 2
-  // const [apartments, setApartments] = useState([]);
-
-  // useEffect(() => {
-  //   console.log("FETCH")
-  //   const abortController = new AbortController();
-  //   fetch("db.json", { signal: abortController.signal })
-  //   .then((res) => res.json())
-  //   .then((res) => setApartments(res))
-  //   .catch(console.error); 
-  //   return () => {
-  //     console.log("CLEANUP");
-  //     abortController.abort();
-  //   };
-  // }, []);
-
-
   // chargement du composant Version 3 (custon hook)
   const apartments = useApartments();
   return (

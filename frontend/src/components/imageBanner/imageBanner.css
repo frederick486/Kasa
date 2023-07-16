@@ -27,25 +27,11 @@
     border-radius: 1rem;
     box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
     opacity: 0;
-    /* transition: opacity 0.5s ease-in-out; */
-    
-    /* animation: disappear 0.5s ease-in-out;
-    animation-fill-mode: forwards; */
 }
-
-/* @keyframes disappear {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-} */
 
 img.show {
     animation: appearance 0.5s ease-in-out;
     animation-fill-mode: forwards;
-    /* opacity: 1; */
 
 }
 
@@ -57,11 +43,6 @@ img.show {
         opacity: 1;
     }
 }
-
-/* .show {
-    transition: opacity 0.5s ease-in-out;
-    opacity: 1!important;
-} */
 
 .image__banner .btn {
     position: absolute;

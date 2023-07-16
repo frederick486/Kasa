@@ -1,15 +1,12 @@
 import React from 'react'
 import DescriptionPanel from '../../components/descriptionPanel/DescriptionPanel'
 import ImageBanner from '../../components/imageBanner/ImageBanner'
-// import GustavoAlvesPicture from '../../Assets/GustavoAlvesPicture.png'
 import './about.css'
 
 function About() {
   return (
     <>
-        <ImageBanner 
-          // imageUrl={GustavoAlvesPicture}
-        />
+      <ImageBanner/>
         <div className="about__container">
             <DescriptionPanel 
               title="Fiabilité" 

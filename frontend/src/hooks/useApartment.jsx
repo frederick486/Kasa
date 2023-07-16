@@ -7,7 +7,6 @@ export const useApartment = () => {
     const [selectedFlat, setSelectedFlat] = useState(null)
     useEffect(() => {
         const abortController = new AbortController();
-        // fetch("db.json", { signal:abortController.signal })
         fetch("db.json")
         .then((res) => res.json())
         .then((flats) => {
